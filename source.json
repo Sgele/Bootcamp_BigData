@@ -1,0 +1,113 @@
+{
+    "count": 2,
+    "fields": [
+      {
+        "name": "_id",
+        "path": [
+          "_id"
+        ],
+        "count": 2,
+        "type": "ObjectId",
+        "probability": 1,
+        "hasDuplicates": false,
+        "types": [
+          {
+            "name": "ObjectId",
+            "path": [
+              "_id"
+            ],
+            "count": 2,
+            "probability": 1,
+            "unique": 2,
+            "hasDuplicates": false,
+            "values": [
+              "65b1a972e81d5519dafa7757",
+              "65b1a972e81d5519dafa7758"
+            ],
+            "bsonType": "ObjectId"
+          }
+        ]
+      },
+      {
+        "name": "description",
+        "path": [
+          "description"
+        ],
+        "count": 2,
+        "type": "String",
+        "probability": 1,
+        "hasDuplicates": false,
+        "types": [
+          {
+            "name": "String",
+            "path": [
+              "description"
+            ],
+            "count": 2,
+            "probability": 1,
+            "unique": 2,
+            "hasDuplicates": false,
+            "values": [
+              "Primary data source for COVID-19 data",
+              "COVID-19 Symptoms Checker"
+            ],
+            "bsonType": "String"
+          }
+        ]
+      },
+      {
+        "name": "source",
+        "path": [
+          "source"
+        ],
+        "count": 2,
+        "type": "String",
+        "probability": 1,
+        "hasDuplicates": false,
+        "types": [
+          {
+            "name": "String",
+            "path": [
+              "source"
+            ],
+            "count": 2,
+            "probability": 1,
+            "unique": 2,
+            "hasDuplicates": false,
+            "values": [
+              "Snowflake",
+              "Kaggle"
+            ],
+            "bsonType": "String"
+          }
+        ]
+      },
+      {
+        "name": "url",
+        "path": [
+          "url"
+        ],
+        "count": 2,
+        "type": "String",
+        "probability": 1,
+        "hasDuplicates": false,
+        "types": [
+          {
+            "name": "String",
+            "path": [
+              "url"
+            ],
+            "count": 2,
+            "probability": 1,
+            "unique": 2,
+            "hasDuplicates": false,
+            "values": [
+              "https://app.snowflake.com/omsgxiz/pz98304/#/data/shared/SNOWFLAKE_DATA_MARKETPLACE/listing/GZSNZ7F5UH?originTab=databases&database=COVID19_EPIDEMIOLOGICAL_DATA",
+              "https://www.kaggle.com/code/mithilesh16/covid-19-symptom-analysis/input?select=Cleaned-Data.csv"
+            ],
+            "bsonType": "String"
+          }
+        ]
+      }
+    ]
+  }

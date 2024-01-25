@@ -1,0 +1,137 @@
+{
+    "count": 8,
+    "fields": [
+      {
+        "name": "_id",
+        "path": [
+          "_id"
+        ],
+        "count": 8,
+        "type": "ObjectId",
+        "probability": 1,
+        "hasDuplicates": false,
+        "types": [
+          {
+            "name": "ObjectId",
+            "path": [
+              "_id"
+            ],
+            "count": 8,
+            "probability": 1,
+            "unique": 8,
+            "hasDuplicates": false,
+            "values": [
+              "65b1a972e81d5519dafa7752",
+              "65b1a972e81d5519dafa7756",
+              "65b1a972e81d5519dafa7751",
+              "65b1a972e81d5519dafa774f",
+              "65b1a972e81d5519dafa7750",
+              "65b1a972e81d5519dafa7755",
+              "65b1a972e81d5519dafa7753",
+              "65b1a972e81d5519dafa7754"
+            ],
+            "bsonType": "ObjectId"
+          }
+        ]
+      },
+      {
+        "name": "action",
+        "path": [
+          "action"
+        ],
+        "count": 8,
+        "type": "String",
+        "probability": 1,
+        "hasDuplicates": false,
+        "types": [
+          {
+            "name": "String",
+            "path": [
+              "action"
+            ],
+            "count": 8,
+            "probability": 1,
+            "unique": 8,
+            "hasDuplicates": false,
+            "values": [
+              "Upload data to S3 bucket",
+              "Using machine learning for predicting values",
+              "Load more data",
+              "Load data from Snowflake",
+              "Setup Snowflake Resource monitors",
+              "Visualizing data",
+              "Connected S3 bucket to Snowflake",
+              "Build a Custom API in Python and Flask"
+            ],
+            "bsonType": "String"
+          }
+        ]
+      },
+      {
+        "name": "comments",
+        "path": [
+          "comments"
+        ],
+        "count": 8,
+        "type": "String",
+        "probability": 1,
+        "hasDuplicates": true,
+        "types": [
+          {
+            "name": "String",
+            "path": [
+              "comments"
+            ],
+            "count": 8,
+            "probability": 1,
+            "unique": 4,
+            "hasDuplicates": true,
+            "values": [
+              "created S3 bucket named \"sgele\", uploaded 3 csv files",
+              "completed",
+              "completed",
+              "completed",
+              "made autosuspend after 1 hour (3600 sec.),  resource monitors with CREDIT_QUOTA = 300,\n    on 80% - suspend,on 75% - suspend_immediate, on 60% - notify, on 50% - notify",
+              "completed",
+              "created a IAM role also changed policies and the excetu code in SQL worksheet and got my new table to my snowflake acc",
+              "completed"
+            ],
+            "bsonType": "String"
+          }
+        ]
+      },
+      {
+        "name": "step",
+        "path": [
+          "step"
+        ],
+        "count": 8,
+        "type": "Int32",
+        "probability": 1,
+        "hasDuplicates": false,
+        "types": [
+          {
+            "name": "Int32",
+            "path": [
+              "step"
+            ],
+            "count": 8,
+            "probability": 1,
+            "unique": 8,
+            "hasDuplicates": false,
+            "values": [
+              4,
+              8,
+              3,
+              1,
+              2,
+              7,
+              5,
+              6
+            ],
+            "bsonType": "Int32"
+          }
+        ]
+      }
+    ]
+  }
